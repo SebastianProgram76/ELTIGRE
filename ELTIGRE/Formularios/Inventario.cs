@@ -8,16 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ELTIGRE
+namespace ELTIGRE.Formularios
 {
-    public partial class Form1 : Form
+    public partial class Inventario : Form
     {
-        Formularios.mainQuesillo MDTIENDA = new Formularios.mainQuesillo();
-
-        public Form1()
+        public Inventario()
         {
             InitializeComponent();
-            MDTIENDA.ShowDialog();
         }
     }
 }

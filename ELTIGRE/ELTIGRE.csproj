@@ -88,23 +88,53 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DSquesillos.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formularios\CatalogoClientes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\CatalogoClientes.Designer.cs">
       <DependentUpon>CatalogoClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Contabilidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad.Designer.cs">
+      <DependentUpon>Contabilidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Facturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Facturacion.Designer.cs">
+      <DependentUpon>Facturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Inventario.Designer.cs">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\mainQuesillo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\mainQuesillo.Designer.cs">
       <DependentUpon>mainQuesillo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Planilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Planilla.Designer.cs">
+      <DependentUpon>Planilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Proveedores.Designer.cs">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Sucursal.Designer.cs">
+      <DependentUpon>Sucursal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
