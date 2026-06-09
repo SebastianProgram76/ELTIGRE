@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\Conexion.cs" />
+    <Compile Include="Clases\DataProyecto.cs" />
     <Compile Include="DSquesillos.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
