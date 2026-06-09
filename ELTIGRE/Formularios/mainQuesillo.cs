@@ -108,5 +108,11 @@ namespace ELTIGRE.Formularios
         {
 
         }
+
+        private void catalogoClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Formularios.CatalogoClientes comprador = new Formularios.CatalogoClientes();
+            comprador.ShowDialog();
+        }
     }
 }
