@@ -107,6 +107,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\CatalogoClientes.resx">
+      <DependentUpon>CatalogoClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\mainQuesillo.resx">
       <DependentUpon>mainQuesillo.cs</DependentUpon>
     </EmbeddedResource>
