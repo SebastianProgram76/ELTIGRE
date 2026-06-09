@@ -826,6 +826,8 @@ namespace ELTIGRE {
             
             private global::System.Data.DataColumn columnStock;
             
+            private global::System.Data.DataColumn columnid_Cate;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public BebidaDataTable() {
@@ -893,6 +895,14 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn id_CateColumn {
+                get {
+                    return this.columnid_Cate;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -928,13 +938,14 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public BebidaRow AddBebidaRow(long id, string Descripcion, decimal Precio, long Stock) {
+            public BebidaRow AddBebidaRow(long id, string Descripcion, decimal Precio, long Stock, long id_Cate) {
                 BebidaRow rowBebidaRow = ((BebidaRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         id,
                         Descripcion,
                         Precio,
-                        Stock};
+                        Stock,
+                        id_Cate};
                 rowBebidaRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowBebidaRow);
                 return rowBebidaRow;
@@ -968,6 +979,7 @@ namespace ELTIGRE {
                 this.columnDescripcion = base.Columns["Descripcion"];
                 this.columnPrecio = base.Columns["Precio"];
                 this.columnStock = base.Columns["Stock"];
+                this.columnid_Cate = base.Columns["id_Cate"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -981,6 +993,8 @@ namespace ELTIGRE {
                 base.Columns.Add(this.columnPrecio);
                 this.columnStock = new global::System.Data.DataColumn("Stock", typeof(long), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnStock);
+                this.columnid_Cate = new global::System.Data.DataColumn("id_Cate", typeof(long), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnid_Cate);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("BebidaKey1", new global::System.Data.DataColumn[] {
                                 this.columnid}, true));
                 this.columnid.AllowDBNull = false;
@@ -1126,6 +1140,8 @@ namespace ELTIGRE {
             
             private global::System.Data.DataColumn columnStock;
             
+            private global::System.Data.DataColumn columnid_Cate;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public ComidaDataTable() {
@@ -1193,6 +1209,14 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn id_CateColumn {
+                get {
+                    return this.columnid_Cate;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -1228,13 +1252,14 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public ComidaRow AddComidaRow(long id, string Descripcion, decimal Precio, long Stock) {
+            public ComidaRow AddComidaRow(long id, string Descripcion, decimal Precio, long Stock, long id_Cate) {
                 ComidaRow rowComidaRow = ((ComidaRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         id,
                         Descripcion,
                         Precio,
-                        Stock};
+                        Stock,
+                        id_Cate};
                 rowComidaRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowComidaRow);
                 return rowComidaRow;
@@ -1268,6 +1293,7 @@ namespace ELTIGRE {
                 this.columnDescripcion = base.Columns["Descripcion"];
                 this.columnPrecio = base.Columns["Precio"];
                 this.columnStock = base.Columns["Stock"];
+                this.columnid_Cate = base.Columns["id_Cate"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1281,6 +1307,8 @@ namespace ELTIGRE {
                 base.Columns.Add(this.columnPrecio);
                 this.columnStock = new global::System.Data.DataColumn("Stock", typeof(long), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnStock);
+                this.columnid_Cate = new global::System.Data.DataColumn("id_Cate", typeof(long), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnid_Cate);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("ComidaKey1", new global::System.Data.DataColumn[] {
                                 this.columnid}, true));
                 this.columnid.AllowDBNull = false;
@@ -1426,6 +1454,8 @@ namespace ELTIGRE {
             
             private global::System.Data.DataColumn columnStock;
             
+            private global::System.Data.DataColumn columnid_Cate;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public ExtrasDataTable() {
@@ -1493,6 +1523,14 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn id_CateColumn {
+                get {
+                    return this.columnid_Cate;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -1528,13 +1566,14 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public ExtrasRow AddExtrasRow(long id, string Descripcion, decimal Precio, long Stock) {
+            public ExtrasRow AddExtrasRow(long id, string Descripcion, decimal Precio, long Stock, long id_Cate) {
                 ExtrasRow rowExtrasRow = ((ExtrasRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         id,
                         Descripcion,
                         Precio,
-                        Stock};
+                        Stock,
+                        id_Cate};
                 rowExtrasRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowExtrasRow);
                 return rowExtrasRow;
@@ -1568,6 +1607,7 @@ namespace ELTIGRE {
                 this.columnDescripcion = base.Columns["Descripcion"];
                 this.columnPrecio = base.Columns["Precio"];
                 this.columnStock = base.Columns["Stock"];
+                this.columnid_Cate = base.Columns["id_Cate"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1581,6 +1621,8 @@ namespace ELTIGRE {
                 base.Columns.Add(this.columnPrecio);
                 this.columnStock = new global::System.Data.DataColumn("Stock", typeof(long), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnStock);
+                this.columnid_Cate = new global::System.Data.DataColumn("id_Cate", typeof(long), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnid_Cate);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("ExtrasKey1", new global::System.Data.DataColumn[] {
                                 this.columnid}, true));
                 this.columnid.AllowDBNull = false;
@@ -1726,6 +1768,8 @@ namespace ELTIGRE {
             
             private global::System.Data.DataColumn columnStock;
             
+            private global::System.Data.DataColumn columnid_Cate;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public PostresDataTable() {
@@ -1793,6 +1837,14 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn id_CateColumn {
+                get {
+                    return this.columnid_Cate;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -1828,13 +1880,14 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public PostresRow AddPostresRow(long id, string Descripcion, decimal Precio, long Stock) {
+            public PostresRow AddPostresRow(long id, string Descripcion, decimal Precio, long Stock, long id_Cate) {
                 PostresRow rowPostresRow = ((PostresRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         id,
                         Descripcion,
                         Precio,
-                        Stock};
+                        Stock,
+                        id_Cate};
                 rowPostresRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowPostresRow);
                 return rowPostresRow;
@@ -1868,6 +1921,7 @@ namespace ELTIGRE {
                 this.columnDescripcion = base.Columns["Descripcion"];
                 this.columnPrecio = base.Columns["Precio"];
                 this.columnStock = base.Columns["Stock"];
+                this.columnid_Cate = base.Columns["id_Cate"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1881,6 +1935,8 @@ namespace ELTIGRE {
                 base.Columns.Add(this.columnPrecio);
                 this.columnStock = new global::System.Data.DataColumn("Stock", typeof(long), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnStock);
+                this.columnid_Cate = new global::System.Data.DataColumn("id_Cate", typeof(long), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnid_Cate);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("PostresKey1", new global::System.Data.DataColumn[] {
                                 this.columnid}, true));
                 this.columnid.AllowDBNull = false;
@@ -2022,6 +2078,8 @@ namespace ELTIGRE {
             
             private global::System.Data.DataColumn columnConcepto;
             
+            private global::System.Data.DataColumn columnid_Desc;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public MPagoDataTable() {
@@ -2073,6 +2131,14 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn id_DescColumn {
+                get {
+                    return this.columnid_Desc;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -2108,11 +2174,12 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public MPagoRow AddMPagoRow(long id, string Concepto) {
+            public MPagoRow AddMPagoRow(long id, string Concepto, long id_Desc) {
                 MPagoRow rowMPagoRow = ((MPagoRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         id,
-                        Concepto};
+                        Concepto,
+                        id_Desc};
                 rowMPagoRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowMPagoRow);
                 return rowMPagoRow;
@@ -2144,6 +2211,7 @@ namespace ELTIGRE {
             internal void InitVars() {
                 this.columnid = base.Columns["id"];
                 this.columnConcepto = base.Columns["Concepto"];
+                this.columnid_Desc = base.Columns["id_Desc"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2153,6 +2221,8 @@ namespace ELTIGRE {
                 base.Columns.Add(this.columnid);
                 this.columnConcepto = new global::System.Data.DataColumn("Concepto", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnConcepto);
+                this.columnid_Desc = new global::System.Data.DataColumn("id_Desc", typeof(long), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnid_Desc);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("MPagoKey1", new global::System.Data.DataColumn[] {
                                 this.columnid}, true));
                 this.columnid.AllowDBNull = false;
@@ -2294,6 +2364,8 @@ namespace ELTIGRE {
             
             private global::System.Data.DataColumn columnTitulo;
             
+            private global::System.Data.DataColumn columnSBruto;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public CargosDataTable() {
@@ -2345,6 +2417,14 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn SBrutoColumn {
+                get {
+                    return this.columnSBruto;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -2380,11 +2460,12 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public CargosRow AddCargosRow(long id, string Titulo) {
+            public CargosRow AddCargosRow(long id, string Titulo, decimal SBruto) {
                 CargosRow rowCargosRow = ((CargosRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         id,
-                        Titulo};
+                        Titulo,
+                        SBruto};
                 rowCargosRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowCargosRow);
                 return rowCargosRow;
@@ -2409,6 +2490,7 @@ namespace ELTIGRE {
             internal void InitVars() {
                 this.columnid = base.Columns["id"];
                 this.columnTitulo = base.Columns["Titulo"];
+                this.columnSBruto = base.Columns["SBruto"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2418,6 +2500,8 @@ namespace ELTIGRE {
                 base.Columns.Add(this.columnid);
                 this.columnTitulo = new global::System.Data.DataColumn("Titulo", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTitulo);
+                this.columnSBruto = new global::System.Data.DataColumn("SBruto", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSBruto);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2785,6 +2869,22 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public long id_Cate {
+                get {
+                    try {
+                        return ((long)(this[this.tableBebida.id_CateColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'id_Cate\' de la tabla \'Bebida\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableBebida.id_CateColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsDescripcionNull() {
                 return this.IsNull(this.tableBebida.DescripcionColumn);
             }
@@ -2817,6 +2917,18 @@ namespace ELTIGRE {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetStockNull() {
                 this[this.tableBebida.StockColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool Isid_CateNull() {
+                return this.IsNull(this.tableBebida.id_CateColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void Setid_CateNull() {
+                this[this.tableBebida.id_CateColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -2895,6 +3007,22 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public long id_Cate {
+                get {
+                    try {
+                        return ((long)(this[this.tableComida.id_CateColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'id_Cate\' de la tabla \'Comida\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableComida.id_CateColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsDescripcionNull() {
                 return this.IsNull(this.tableComida.DescripcionColumn);
             }
@@ -2927,6 +3055,18 @@ namespace ELTIGRE {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetStockNull() {
                 this[this.tableComida.StockColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool Isid_CateNull() {
+                return this.IsNull(this.tableComida.id_CateColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void Setid_CateNull() {
+                this[this.tableComida.id_CateColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -3005,6 +3145,22 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public long id_Cate {
+                get {
+                    try {
+                        return ((long)(this[this.tableExtras.id_CateColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'id_Cate\' de la tabla \'Extras\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableExtras.id_CateColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsDescripcionNull() {
                 return this.IsNull(this.tableExtras.DescripcionColumn);
             }
@@ -3037,6 +3193,18 @@ namespace ELTIGRE {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetStockNull() {
                 this[this.tableExtras.StockColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool Isid_CateNull() {
+                return this.IsNull(this.tableExtras.id_CateColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void Setid_CateNull() {
+                this[this.tableExtras.id_CateColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -3115,6 +3283,22 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public long id_Cate {
+                get {
+                    try {
+                        return ((long)(this[this.tablePostres.id_CateColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'id_Cate\' de la tabla \'Postres\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablePostres.id_CateColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsDescripcionNull() {
                 return this.IsNull(this.tablePostres.DescripcionColumn);
             }
@@ -3147,6 +3331,18 @@ namespace ELTIGRE {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetStockNull() {
                 this[this.tablePostres.StockColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool Isid_CateNull() {
+                return this.IsNull(this.tablePostres.id_CateColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void Setid_CateNull() {
+                this[this.tablePostres.id_CateColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -3193,6 +3389,22 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public long id_Desc {
+                get {
+                    try {
+                        return ((long)(this[this.tableMPago.id_DescColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'id_Desc\' de la tabla \'MPago\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableMPago.id_DescColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsConceptoNull() {
                 return this.IsNull(this.tableMPago.ConceptoColumn);
             }
@@ -3201,6 +3413,18 @@ namespace ELTIGRE {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetConceptoNull() {
                 this[this.tableMPago.ConceptoColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool Isid_DescNull() {
+                return this.IsNull(this.tableMPago.id_DescColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void Setid_DescNull() {
+                this[this.tableMPago.id_DescColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -3252,6 +3476,22 @@ namespace ELTIGRE {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public decimal SBruto {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableCargos.SBrutoColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'SBruto\' de la tabla \'Cargos\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableCargos.SBrutoColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsidNull() {
                 return this.IsNull(this.tableCargos.idColumn);
             }
@@ -3272,6 +3512,18 @@ namespace ELTIGRE {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetTituloNull() {
                 this[this.tableCargos.TituloColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsSBrutoNull() {
+                return this.IsNull(this.tableCargos.SBrutoColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetSBrutoNull() {
+                this[this.tableCargos.SBrutoColumn] = global::System.Convert.DBNull;
             }
         }
         
