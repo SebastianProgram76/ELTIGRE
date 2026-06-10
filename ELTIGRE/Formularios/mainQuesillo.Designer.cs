@@ -148,7 +148,9 @@
             this.Controls.Add(this.statusStrip1);
             this.IsMdiContainer = true;
             this.Name = "mainQuesillo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quesillos ELTIGRE";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.mainQuesillo_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
