@@ -16,5 +16,10 @@ namespace ELTIGRE.Formularios
         {
             InitializeComponent();
         }
+
+        private void BAgregarClientes_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

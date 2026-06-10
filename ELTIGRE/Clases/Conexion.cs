@@ -17,7 +17,7 @@ namespace ELTIGRE.Clases
         {
             try
             {
-                cxndb = new SqlConnection(/*Aun incluir Properties.Settings.Default.cnn*/);
+                cxndb = new SqlConnection(Properties.Settings.Default.CNN);
                 cxndb.Open();
                 return true;
             }

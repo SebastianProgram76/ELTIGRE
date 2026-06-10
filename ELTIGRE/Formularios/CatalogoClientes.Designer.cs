@@ -61,6 +61,7 @@
             this.BAgregarClientes.TabIndex = 0;
             this.BAgregarClientes.Text = "Agregar";
             this.BAgregarClientes.UseVisualStyleBackColor = false;
+            this.BAgregarClientes.Click += new System.EventHandler(this.BAgregarClientes_Click);
             // 
             // BActualizarClientes
             // 
