@@ -108,5 +108,47 @@ namespace ELTIGRE.Formularios
         {
 
         }
+
+        private void catalogoClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Formularios.CatalogoClientes comprador = new Formularios.CatalogoClientes();
+            comprador.ShowDialog();
+        }
+
+        private void facturaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Formularios.Facturacion factura = new Formularios.Facturacion();
+            factura.ShowDialog();
+        }
+
+        private void inventarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Formularios.Inventario inventario = new Formularios.Inventario();
+            inventario.ShowDialog();
+        }
+
+        private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Formularios.Proveedores proveedor = new Formularios.Proveedores();
+            proveedor.ShowDialog();
+        }
+
+        private void sucursalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Formularios.Sucursal sucursal = new Formularios.Sucursal();
+            sucursal.ShowDialog();
+        }
+
+        private void planillaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Formularios.Planilla planilla = new Formularios.Planilla();
+            planilla.ShowDialog();
+        }
+
+        private void contabilidadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Formularios.Contabilidad contabilidad = new Formularios.Contabilidad();
+            contabilidad.ShowDialog();
+        }
     }
 }

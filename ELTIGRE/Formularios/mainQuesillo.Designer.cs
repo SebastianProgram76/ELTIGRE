@@ -84,42 +84,49 @@
             this.facturaciónToolStripMenuItem.Name = "facturaciónToolStripMenuItem";
             this.facturaciónToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.facturaciónToolStripMenuItem.Text = "Facturación";
+            this.facturaciónToolStripMenuItem.Click += new System.EventHandler(this.facturaciónToolStripMenuItem_Click);
             // 
             // inventarioToolStripMenuItem
             // 
             this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
             this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.inventarioToolStripMenuItem.Text = "Inventario";
+            this.inventarioToolStripMenuItem.Click += new System.EventHandler(this.inventarioToolStripMenuItem_Click);
             // 
             // catalogoClienteToolStripMenuItem
             // 
             this.catalogoClienteToolStripMenuItem.Name = "catalogoClienteToolStripMenuItem";
             this.catalogoClienteToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.catalogoClienteToolStripMenuItem.Text = "Catalogo Cliente";
+            this.catalogoClienteToolStripMenuItem.Click += new System.EventHandler(this.catalogoClienteToolStripMenuItem_Click);
             // 
             // proveedoresToolStripMenuItem
             // 
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
             this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.proveedoresToolStripMenuItem.Text = "Proveedores";
+            this.proveedoresToolStripMenuItem.Click += new System.EventHandler(this.proveedoresToolStripMenuItem_Click);
             // 
             // sucursalesToolStripMenuItem
             // 
             this.sucursalesToolStripMenuItem.Name = "sucursalesToolStripMenuItem";
             this.sucursalesToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.sucursalesToolStripMenuItem.Text = "Sucursales";
+            this.sucursalesToolStripMenuItem.Click += new System.EventHandler(this.sucursalesToolStripMenuItem_Click);
             // 
             // planillaToolStripMenuItem
             // 
             this.planillaToolStripMenuItem.Name = "planillaToolStripMenuItem";
             this.planillaToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.planillaToolStripMenuItem.Text = "Planilla";
+            this.planillaToolStripMenuItem.Click += new System.EventHandler(this.planillaToolStripMenuItem_Click);
             // 
             // contabilidadToolStripMenuItem
             // 
             this.contabilidadToolStripMenuItem.Name = "contabilidadToolStripMenuItem";
             this.contabilidadToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.contabilidadToolStripMenuItem.Text = "Contabilidad";
+            this.contabilidadToolStripMenuItem.Click += new System.EventHandler(this.contabilidadToolStripMenuItem_Click);
             // 
             // mainQuesillo
             // 
@@ -130,7 +137,9 @@
             this.Controls.Add(this.statusStrip1);
             this.IsMdiContainer = true;
             this.Name = "mainQuesillo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quesillos ELTIGRE";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.mainQuesillo_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();

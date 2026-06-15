@@ -24,7 +24,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>\\DESKTOP-0PSKN9F\Sistemas\Contabilidad\</UpdateUrl>
-    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationRevision>8</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -81,16 +81,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Conexion.cs" />
+    <Compile Include="Clases\DataProyecto.cs" />
     <Compile Include="DSquesillos.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DSquesillos.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Formularios\CatalogoClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Formularios\CatalogoClientes.Designer.cs">
+      <DependentUpon>CatalogoClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad.Designer.cs">
+      <DependentUpon>Contabilidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Facturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Facturacion.Designer.cs">
+      <DependentUpon>Facturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Inventario.Designer.cs">
+      <DependentUpon>Inventario.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\mainQuesillo.cs">
       <SubType>Form</SubType>
@@ -98,10 +118,49 @@
     <Compile Include="Formularios\mainQuesillo.Designer.cs">
       <DependentUpon>mainQuesillo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Planilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Planilla.Designer.cs">
+      <DependentUpon>Planilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Proveedores.Designer.cs">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Sucursal.Designer.cs">
+      <DependentUpon>Sucursal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\CatalogoClientes.resx">
+      <DependentUpon>CatalogoClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad.resx">
+      <DependentUpon>Contabilidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Facturacion.resx">
+      <DependentUpon>Facturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Inventario.resx">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\mainQuesillo.resx">
       <DependentUpon>mainQuesillo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Planilla.resx">
+      <DependentUpon>Planilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Proveedores.resx">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Sucursal.resx">
+      <DependentUpon>Sucursal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
