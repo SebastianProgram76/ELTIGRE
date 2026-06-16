@@ -38,9 +38,9 @@ namespace ELTIGRE.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=ProyectadaQuesillera;Integrated Security=True")]
-        public string ProyectadaQuesillera {
+        public string ProyectadaQuesilleraConnectionString {
             get {
-                return ((string)(this["ProyectadaQuesillera"]));
+                return ((string)(this["ProyectadaQuesilleraConnectionString"]));
             }
         }
     }
