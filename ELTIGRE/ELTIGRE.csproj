@@ -88,28 +88,28 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DSquesillos.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\CatalogoClientes.cs">
+    <Compile Include="Formularios\Clientes\CatalogoClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\CatalogoClientes.Designer.cs">
+    <Compile Include="Formularios\Clientes\CatalogoClientes.Designer.cs">
       <DependentUpon>CatalogoClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Contabilidad.cs">
+    <Compile Include="Formularios\Contabilidad\Contabilidad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Contabilidad.Designer.cs">
+    <Compile Include="Formularios\Contabilidad\Contabilidad.Designer.cs">
       <DependentUpon>Contabilidad.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Facturacion.cs">
+    <Compile Include="Formularios\Factura\Facturacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Facturacion.Designer.cs">
+    <Compile Include="Formularios\Factura\Facturacion.Designer.cs">
       <DependentUpon>Facturacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Inventario.cs">
+    <Compile Include="Formularios\Almacen\Inventario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Inventario.Designer.cs">
+    <Compile Include="Formularios\Almacen\Inventario.Designer.cs">
       <DependentUpon>Inventario.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\mainQuesillo.cs">
@@ -118,53 +118,57 @@
     <Compile Include="Formularios\mainQuesillo.Designer.cs">
       <DependentUpon>mainQuesillo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Planilla.cs">
+    <Compile Include="Formularios\Empleado\Planilla.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Planilla.Designer.cs">
+    <Compile Include="Formularios\Empleado\Planilla.Designer.cs">
       <DependentUpon>Planilla.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Proveedores.cs">
+    <Compile Include="Formularios\Abastecer\Proveedores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Proveedores.Designer.cs">
+    <Compile Include="Formularios\Abastecer\Proveedores.Designer.cs">
       <DependentUpon>Proveedores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Sucursal.cs">
+    <Compile Include="Formularios\Sucursal\Sucursal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Sucursal.Designer.cs">
+    <Compile Include="Formularios\Sucursal\Sucursal.Designer.cs">
       <DependentUpon>Sucursal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="ProyectadaQuesilleraDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ProyectadaQuesilleraDataSet.xsd</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Formularios\CatalogoClientes.resx">
+=======
+    <EmbeddedResource Include="Formularios\Clientes\CatalogoClientes.resx">
+>>>>>>> 6d0ebc075a0f9f8114dd6a84250dbf9516f70375
       <DependentUpon>CatalogoClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Contabilidad.resx">
+    <EmbeddedResource Include="Formularios\Contabilidad\Contabilidad.resx">
       <DependentUpon>Contabilidad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Facturacion.resx">
+    <EmbeddedResource Include="Formularios\Factura\Facturacion.resx">
       <DependentUpon>Facturacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Inventario.resx">
+    <EmbeddedResource Include="Formularios\Almacen\Inventario.resx">
       <DependentUpon>Inventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\mainQuesillo.resx">
       <DependentUpon>mainQuesillo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Planilla.resx">
+    <EmbeddedResource Include="Formularios\Empleado\Planilla.resx">
       <DependentUpon>Planilla.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Proveedores.resx">
+    <EmbeddedResource Include="Formularios\Abastecer\Proveedores.resx">
       <DependentUpon>Proveedores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Sucursal.resx">
+    <EmbeddedResource Include="Formularios\Sucursal\Sucursal.resx">
       <DependentUpon>Sucursal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
